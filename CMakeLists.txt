@@ -15,6 +15,10 @@ add_subdirectory(3rdparty/glfw)
 set(GLAD_INCLUDE_DIR ${CMAKE_CURRENT_LIST_DIR}/3rdparty/glad/include)
 include_directories(${GLAD_INCLUDE_DIR})
 
+# Add stb
+set(STB_INCLUDE_DIR ${CMAKE_CURRENT_LIST_DIR}/3rdparty/stb)
+include_directories(${STB_INCLUDE_DIR})
+
 # ------------------------------------------------------------------------------
 # Add examples
 add_subdirectory(examples)
